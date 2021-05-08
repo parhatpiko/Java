@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/Tumushuk"/>
+    <TextView
+        android:id="@+id/Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image"
+        android:text="XinJiang autonomous region"
+        android:textAppearance="?android:textAppearanceMedium"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Location"
+        android:layout_toRightOf="@+id/image"
+        android:text="Tumushuk"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/image"
+        android:text="Cold"
+        android:textAppearance="?android:textAppearanceSmall"/>
+    Sentiment://pat attention to the usage of "layout_toRightof/below"
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/HT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#b2ff59"
+        android:text="HT"  />
+    <TextView
+        android:id="@+id/Gui"
+        android:text="Ran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/HT"
+        android:background=" #ffeb3b"
+        android:textColor="#43a047"  />
+      <TextView
+          android:id="@+id/Liu"
+          android:text="Liu"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:background="#607d8b"  />
+       <TextView
+           android:id="@+id/Xiang"
+           android:text="Xiang"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentLeft="true"
+           android:background="#651fff"  />
+
+</RelativeLayout>
